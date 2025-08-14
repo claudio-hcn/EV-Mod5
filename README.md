@@ -10,6 +10,28 @@ Se implementan prácticas avanzadas de **BDD (Behavior Driven Development)** com
 - Pruebas parametrizadas con **Scenario Outlines** para validar múltiples combinaciones de datos en un solo escenario.
 
 La configuración de **Hooks**, **Tags** y **Scenario Outlines** refleja un alto nivel de conocimiento en prácticas de BDD.
+## 📦 Estructura del Proyecto
+
+El proyecto está organizado como un proyecto Maven:
+
+```
+└── 📁EV-Mod5
+    └── 📁src
+        └── 📁test
+            └── 📁java
+                └── 📁hooks
+                    ├── Hooks.java
+                └── 📁runner
+                    ├── TestRunner.java
+                └── 📁steps
+                    ├── LoginSteps.java
+            └── 📁resources
+                └── 📁features
+                    ├── login.feature
+    └── 📁target
+    ├── pom.xml
+    └── README.md
+```
 
 ## 🚀 Tecnologías Utilizadas
 
